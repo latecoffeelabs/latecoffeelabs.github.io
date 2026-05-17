@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Late Coffee Labs</title>
+  <style>
+    :root {
+      --bg: #0f0e0c;
+      --ink: #f3ede1;
+      --accent: #c89b6b;
+      --muted: #8a8275;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 560px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+    .app {
+      background: rgba(200, 155, 107, 0.08);
+      border: 1px solid rgba(200, 155, 107, 0.2);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .app h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+    .app p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+    }
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+    .links a:hover {
+      border-bottom-color: var(--accent);
+    }
+    footer {
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Late Coffee Labs</h1>
+    <p class="tagline">Apps brewed slowly, after hours.</p>
+
+    <div class="app">
+      <h2>WeekSlayer</h2>
+      <p>A themed work-week countdown and shift-tracking app for Android. Five visual worlds. Coming soon to Google Play.</p>
+    </div>
+
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="mailto:latecoffee.labs@gmail.com">Contact</a>
+    </div>
+
+    <footer>
+      &copy; 2026 Late Coffee Labs
+    </footer>
+  </div>
+</body>
+</html>
